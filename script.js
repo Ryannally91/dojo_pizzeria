@@ -10,7 +10,7 @@ _submit.addEventListener('click', function (event) {
 
     console.log(crust.value, sauce.value, cheese.value)
     console.log(pizzaOven(crust.value, sauce.value, cheese.value, toppings.value ))
-    pizzaOven(crust.value, sauce.value, cheese.value, toppings.value )
+    let pizza = pizzaOven(crust.value, sauce.value, cheese.value, toppings.value )
    //display is id of div to display this info
     display.innerHTML = `<p>you ordered a pizza with ${pizza.crustType}, ${pizza.sauceType} </p> `
         
